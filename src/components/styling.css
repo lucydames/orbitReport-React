@@ -17,6 +17,63 @@ button {
   font-weight: bold;
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  border: 2px solid #0923a6;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(23, 127, 197, 0.2);
+  
+}
+
+table.centered-table {
+  margin: 0 auto;
+  width: 80%;
+}
+
+th {
+  border-bottom: 2px solid #354a5f;
+  padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #354a5f;
+  color: white;
+  text-align: center;
+  font-size: 18px;
+}
+tr:nth-child(even) {
+  background-color: #0c79e6;
+}
+tr:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+td {
+  text-align: center;
+  padding: 12px;
+}
+
+h1 {
+  padding: 50px;
+  text-align: center;
+  background: #5c94ce;
+  color: white;
+  font-size: 60px;
+}
+
 .flex-container {
   display: flex;
   justify-content: center;

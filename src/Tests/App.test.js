@@ -33,10 +33,10 @@ describe("Final App function should contain 4 BUTTONS: Low, Medium, High, and Al
    });
 
    test('renders All Orbit Button', () => {
-   render(<App />);
-   const element = screen.getByText(/All Orbit/i);
-   expect(element).toBeInTheDocument();
-   });
+      render(<App />);
+      const element = screen.getByTestId('show-all-button');
+      expect(element).toBeInTheDocument();
+      });
 });
 
 describe("Final App function should contain a TABLE with values in both headers and cells", () => {
